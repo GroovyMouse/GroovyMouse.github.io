@@ -146,15 +146,15 @@ footer {
 	margin: 0 0 10px;
 }
 
-.contact-indo li.phone a {
+.contact-info li.phone a {
 	background-image: url('../img/phone.png');
 }
 
-.contact-indo li.mail a {
+.contact-info li.mail a {
 	background-image: url('../img/mail.png');
 }
 
-.contact-indo li.twitter a {
+.contact-info li.twitter a {
 	background-image: url('../img/twitter.png');
 }
 
