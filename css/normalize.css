@@ -64,9 +64,7 @@ audio:not([controls]) {
  */
 
 html {
-    font-size: 100%; /* 1 */
-    -webkit-text-size-adjust: 100%; /* 2 */
-    -ms-text-size-adjust: 100%; /* 2 */
+    font-size: 100%; 
 }
 
 /**
@@ -186,7 +184,6 @@ dfn {
  */
 
 hr {
-    -moz-box-sizing: content-box;
     box-sizing: content-box;
     height: 0;
 }
@@ -217,8 +214,7 @@ code,
 kbd,
 pre,
 samp {
-    font-family: monospace, serif;
-    _font-family: 'courier new', monospace;
+    font-family: 'courier new', monospace, serif;
     font-size: 1em;
 }
 
@@ -327,8 +323,7 @@ nav ol {
  */
 
 img {
-    border: 0; /* 1 */
-    -ms-interpolation-mode: bicubic; /* 2 */
+    border: 0; 
 }
 
 /**
@@ -438,7 +433,6 @@ button,
 html input[type="button"], 
 input[type="reset"],
 input[type="submit"] {
-    -webkit-appearance: button; 
     cursor: pointer; 
     overflow: visible;  
 }
@@ -474,30 +468,7 @@ input[type="radio"] {
  */
 
 input[type="search"] {
-    -webkit-appearance: textfield; 
-    -moz-box-sizing: content-box;
-    -webkit-box-sizing: content-box; 
     box-sizing: content-box;
-}
-
-/**
- * Remove inner padding and search cancel button in Safari 5 and Chrome
- * on OS X.
- */
-
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
-    -webkit-appearance: none;
-}
-
-/**
- * Remove inner padding and border in Firefox 3+.
- */
-
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-    border: 0;
-    padding: 0;
 }
 
 /**
