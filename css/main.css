@@ -48,7 +48,7 @@ h1 {
 
 h2 {
 	font-size: 0.75em;
-	margin: -5px, 0 0;
+	margin: -5px 0 0;
 	font-weight: normal;
 }
 
@@ -90,7 +90,7 @@ footer {
 .social-icon {
 	width: 20px;
 	height: 20px;
-	height: 0 5px;
+	padding: 0 5px;
 }
 
 /*************************
