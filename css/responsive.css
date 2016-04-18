@@ -3,12 +3,12 @@
 	/******************************
 			TWO COLUMN LAYOUT
 	******************************/
-	#primary {
+	.primary {
 		width: 50%;
 		float: left;
 	}
 
-	#secondary {
+	.secondary {
 		width: 40%;
 		float: right;
 	}
@@ -16,11 +16,11 @@
 	/******************************
 			PAGE PORTFOLIO
 	******************************/
-	#gallery li {
+	.gallery li {
 		width: 28.3333%;
 	}
 
-	#gallery li:nth-child(4n) {
+	.gallery li:nth-child(4n) {
 		clear: left;
 	}
 
@@ -49,7 +49,7 @@
 		width: 45%;
 	}
 
-	#logo {
+	.logo {
 		float: left;
 		margin-left: 5%;
 		text-align: left;
