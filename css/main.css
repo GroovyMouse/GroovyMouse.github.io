@@ -120,6 +120,10 @@ footer {
 /*************************
 		PAGE ABOUT
 *************************/
+.about-primary {
+	max-width: 100%;
+}
+
 .profile-photo {
 	display: block;
 	max-width: 150px;
