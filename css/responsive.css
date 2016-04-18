@@ -16,11 +16,11 @@
 	/******************************
 			PAGE PORTFOLIO
 	******************************/
-	.gallery li {
+	.gallery-item {
 		width: 28.3333%;
 	}
 
-	.gallery li:nth-child(4n) {
+	.gallery-item:nth-child(4n) {
 		clear: left;
 	}
 

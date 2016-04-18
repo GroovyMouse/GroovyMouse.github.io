@@ -102,7 +102,7 @@ footer {
 	list-style: none;
 }
 
-.gallery li {
+.gallery-item {
 	float: left;
 	width: 45%;
 	margin: 2.5%;
@@ -110,7 +110,8 @@ footer {
 	color: #bdc3c7;
 }
 
-.gallery li a p {
+.gallery-image,
+.gallery-image-caption {
 	margin: 0;
 	padding: 5%;
 	font-size: 0.75em;
